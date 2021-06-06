@@ -1,0 +1,31 @@
+﻿<hc:Window x:Class="WpfStudyDemo.HandyControls.HCWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfStudyDemo.HandyControls"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        ShowNonClientArea="True"
+        ShowTitle="True"
+        ResizeMode="CanResizeWithGrip"
+        Title="HCWindow" Height="450" Width="800">
+    <hc:Window.NonClientAreaContent>
+        <Grid Background="Transparent">
+            <Menu>
+                <MenuItem Header="工具">
+                    <MenuItem Header="测试" />
+                </MenuItem>
+            </Menu>
+        </Grid>
+    </hc:Window.NonClientAreaContent>
+    <Grid>
+        <hc:Card>
+            <WrapPanel>
+                <Button Content="按钮" />
+                <TextBlock Text="文本" VerticalAlignment="Center"/>
+                <hc:RangeSlider Minimum="0" Maximum="100" Width="200" ValueStart="10" ValueEnd="70"/>
+            </WrapPanel>
+        </hc:Card>
+    </Grid>
+</hc:Window>

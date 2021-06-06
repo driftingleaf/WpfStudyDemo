@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfStudyDemo.Windows.NoBorder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfStudyDemo.Windows"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Title="NoBorder" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Background="DodgerBlue" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{x:Null}"  Text="Title" Margin="10,0,0,0" Background="Transparent"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
+                <Button Style="{x:Null}"  Content="—" Width="30" Background="Transparent"/>
+                <Button Style="{x:Null}"  Content="□" Width="30" Background="Transparent"/>
+                <Button Style="{x:Null}"  Content="X" Width="30" Background="Transparent"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
