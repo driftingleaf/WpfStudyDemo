@@ -24,7 +24,7 @@
             <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
                 <Button Style="{x:Null}"  Content="—" Width="30" Background="Transparent"/>
                 <Button Style="{x:Null}"  Content="□" Width="30" Background="Transparent"/>
-                <Button Style="{x:Null}"  Content="X" Width="30" Background="Transparent"/>
+                <Button Style="{x:Null}"  Content="X" Width="30" Background="Transparent" Click="Button_Click"/>
             </StackPanel>
         </Grid>
     </Grid>

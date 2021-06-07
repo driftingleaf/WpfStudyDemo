@@ -27,6 +27,7 @@
                             <Button Style="{x:Null}"  x:Name="btnGrid" Content="Grid" Click="Button_Click"/>
                             <Button Style="{x:Null}"  x:Name="btnStack" Content="StackPanel" Click="btnStack_Click"/>
                             <Button Style="{x:Null}"  x:Name="btnWrap" Content="WrapPanel" Click="btnWrap_Click"/>
+                            <Button Style="{x:Null}"  x:Name="btnCanvas" Content="Canvas" Click="btnCanvas_Click"/>
                         </StackPanel>
                     </Expander.Content>
                 </Expander>
@@ -49,6 +50,39 @@
                     <Expander.Content>
                         <StackPanel>
                             <Button Style="{x:Null}"  x:Name="btnMvvm" Content="Mvvm" Click="btnMvvm_Click"/>
+                        </StackPanel>
+                    </Expander.Content>
+                </Expander>
+                <Expander Style="{x:Null}"  Header="样式" IsExpanded="True">
+                    <Expander.Content>
+                        <StackPanel>
+                            <Button x:Name="btnStyle" Content="Style" Click="btnStyle_Click">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Background" Value="DarkOrange"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type Button}" >
+                                                    <Border BorderBrush="{TemplateBinding Control.BorderBrush}" Background="{TemplateBinding Background}" BorderThickness="1" CornerRadius="7,7,7,7">
+                                                        <ContentPresenter Content="{TemplateBinding ContentControl.Content}" HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Foreground" Value="Black"/>
+                                                <Setter Property="Background" Value="LemonChiffon"/>
+                                            </Trigger>
+                                            <Trigger Property="ButtonBase.IsPressed" Value="True">
+                                                <Setter Property="Foreground" Value="Gray"/>
+                                                <Setter Property="Background" Value="Blue"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
                         </StackPanel>
                     </Expander.Content>
                 </Expander>

@@ -92,5 +92,16 @@ namespace WpfStudyDemo
             Mvvm.MvvmDemoControl control = new Mvvm.MvvmDemoControl();
             this.SetMainControl(control);
         }
+
+        private void btnCanvas_Click(object sender, RoutedEventArgs e)
+        {
+            Layouts.CanvasDemoControl control = new Layouts.CanvasDemoControl();
+            this.SetMainControl(control);
+        }
+
+        private void btnStyle_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
