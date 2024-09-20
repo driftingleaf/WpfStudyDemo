@@ -55,13 +55,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-21" value="深度行情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-10" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="-10" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yiQfQvPfkW4cclJvON_a-25" target="yiQfQvPfkW4cclJvON_a-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-110" y="890" />
-              <mxPoint x="-200" y="890" />
+              <mxPoint x="-110" y="830" />
+              <mxPoint x="-200" y="830" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -75,22 +75,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-25" value="报价" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-170" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="-170" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-30" value="点价" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-10" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="-10" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-32" value="市场行情" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-34" value="内部" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-240" y="920" width="80" height="40" as="geometry" />
+          <mxGeometry x="-240" y="860" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-36" value="全市场" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-61" y="920" width="80" height="40" as="geometry" />
+          <mxGeometry x="-61" y="860" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yiQfQvPfkW4cclJvON_a-41" value="指定机构" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-150" y="920" width="80" height="40" as="geometry" />
+          <mxGeometry x="-150" y="860" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
